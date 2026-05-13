@@ -50,10 +50,10 @@ link: This operator allows you to search for pages that link to a specific URL. 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
  
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -66,7 +66,15 @@ Top level domain expansion
 
 ## Output:
 
+The primary goal is to perform Information Gathering or Enumeration by locating sensitive or specific documents that a company might have inadvertently left public on their servers.
+
+site:[domain]: Restricts the search to a specific website or top-level domain (e.g., .gov, .edu).
+
+filetype:pdf: Filters the results to show only PDF documents.
+
 <img width="1050" height="372" alt="Screenshot 2026-05-02 093003" src="https://github.com/user-attachments/assets/3bc9f3da-6a14-46ff-b10c-db5e007db9d4" />
+
+
 
 
 
